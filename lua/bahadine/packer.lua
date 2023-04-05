@@ -34,7 +34,7 @@ return require('packer').startup(function(use)
     use 'nvim-lua/plenary.nvim'
     use 'williamboman/mason.nvim'
     use 'williamboman/mason-lspconfig.nvim'
-    use 'glepnir/lspsaga.nvim' -- LSP UIs
+    use 'glepnir/lspsaga.nvim'         -- LSP UIs
     use 'kyazdani42/nvim-web-devicons' -- File icons
     use 'windwp/nvim-autopairs'
     use 'windwp/nvim-ts-autotag'
@@ -59,5 +59,6 @@ return require('packer').startup(function(use)
     use 'dinhhuy258/git.nvim' -- For git blame & browse
     use 'lukas-reineke/indent-blankline.nvim'
     use 'preservim/nerdtree'
+    use 'ryanoasis/vim-devicons'
     use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
 end)

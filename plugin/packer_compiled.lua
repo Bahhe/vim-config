@@ -230,6 +230,11 @@ _G.packer_plugins = {
     path = "/home/bahadine/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/home/bahadine/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
+  },
   ["zen-mode.nvim"] = {
     loaded = true,
     path = "/home/bahadine/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
